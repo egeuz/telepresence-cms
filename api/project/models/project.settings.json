@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "Project"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "project_id": {
+      "type": "integer",
+      "required": true,
+      "unique": true,
+      "min": 0
+    },
+    "project_title": {
+      "type": "string",
+      "required": true
+    },
+    "project_author": {
+      "type": "string",
+      "required": true
+    },
+    "project_hashtags": {
+      "type": "string",
+      "required": true
+    },
+    "project_category": {
+      "type": "string",
+      "required": true
+    },
+    "project_cover_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}
