@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_photo_photos",
+  "info": {
+    "name": "photo",
+    "icon": "fire-alt"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

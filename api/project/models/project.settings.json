@@ -40,6 +40,16 @@
       ],
       "plugin": "upload",
       "required": true
+    },
+    "project_description": {
+      "type": "text"
+    },
+    "project_content": {
+      "type": "dynamiczone",
+      "components": [
+        "photo.photo",
+        "video.video"
+      ]
     }
   }
 }
