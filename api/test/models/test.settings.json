@@ -11,6 +11,9 @@
   "attributes": {
     "testfield": {
       "type": "string"
+    },
+    "testfield2": {
+      "type": "string"
     }
   }
 }
