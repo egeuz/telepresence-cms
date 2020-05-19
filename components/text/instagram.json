@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_text_instagrams",
+  "info": {
+    "name": "Instagram",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "Insta_handle": {
+      "type": "string"
+    }
+  }
+}

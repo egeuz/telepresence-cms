@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_text_portfolios",
+  "info": {
+    "name": "portfolio",
+    "icon": "book-reader"
+  },
+  "options": {},
+  "attributes": {
+    "Portfolio_url": {
+      "type": "string"
+    }
+  }
+}

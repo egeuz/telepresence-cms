@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_text_emails",
+  "info": {
+    "name": "Email",
+    "icon": "envelope"
+  },
+  "options": {},
+  "attributes": {
+    "Email_id": {
+      "type": "string"
+    }
+  }
+}
