@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_photo_media1_s",
+  "info": {
+    "name": "Media1",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "Media1": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Medi1_Title": {
+      "type": "string"
+    }
+  }
+}

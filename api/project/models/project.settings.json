@@ -48,7 +48,9 @@
       "type": "dynamiczone",
       "components": [
         "photo.photo",
-        "video.video"
+        "video.video",
+        "video.media2",
+        "photo.media1"
       ]
     },
     "Author_Intro": {
@@ -60,9 +62,15 @@
         "text.instagram",
         "text.facebook",
         "text.linked-in",
-        "text.email",
-        "text.portfolio"
+        "text.portfolio",
+        "text.emailid"
       ]
+    },
+    "Project_DetailDescription": {
+      "type": "text"
+    },
+    "Project_tagline": {
+      "type": "string"
     }
   }
 }
