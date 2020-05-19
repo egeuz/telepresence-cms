@@ -36,6 +36,12 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "event_type": {
+      "type": "string"
+    },
+    "event_url": {
+      "type": "string"
     }
   }
 }
