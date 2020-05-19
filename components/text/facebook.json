@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_text_facebooks",
+  "info": {
+    "name": "Facebook",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Facebook_handle": {
+      "type": "string"
+    }
+  }
+}

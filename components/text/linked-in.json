@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_text_linked_ins",
+  "info": {
+    "name": "LinkedIn",
+    "icon": "envelope-open"
+  },
+  "options": {},
+  "attributes": {
+    "LinkedIn_handle": {
+      "type": "string"
+    }
+  }
+}
