@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contributors",
+  "info": {
+    "name": "Contributors"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "contributor_name": {
+      "type": "string"
+    },
+    "contributor_team": {
+      "type": "string"
+    },
+    "contributor_portfolio": {
+      "type": "string"
+    }
+  }
+}
