@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_unity_unities",
+  "info": {
+    "name": "unity",
+    "icon": "arrow-down"
+  },
+  "options": {},
+  "attributes": {
+    "unity_embed_link": {
+      "type": "string"
+    }
+  }
+}

@@ -47,8 +47,9 @@
     "project_content": {
       "type": "dynamiczone",
       "components": [
-        "photo.photo",
-        "video.video"
+        "video.video",
+        "unity.unity",
+        "two-image-grid.two-image-grid"
       ]
     }
   }
