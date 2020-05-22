@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_text_emailids",
+  "info": {
+    "name": "emailid",
+    "icon": "closed-captioning"
+  },
+  "options": {},
+  "attributes": {
+    "Author_email": {
+      "type": "email"
+    }
+  }
+}

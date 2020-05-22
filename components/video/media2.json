@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_video_media2_s",
+  "info": {
+    "name": "Media2",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "Media2": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Media2_Title": {
+      "type": "string"
+    }
+  }
+}

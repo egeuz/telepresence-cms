@@ -47,10 +47,30 @@
     "project_content": {
       "type": "dynamiczone",
       "components": [
+        "photo.photo",
         "video.video",
-        "unity.unity",
-        "two-image-grid.two-image-grid"
+        "video.media2",
+        "photo.media1"
       ]
+    },
+    "Author_Intro": {
+      "type": "text"
+    },
+    "Author_Social": {
+      "type": "dynamiczone",
+      "components": [
+        "text.instagram",
+        "text.facebook",
+        "text.linked-in",
+        "text.portfolio",
+        "text.emailid"
+      ]
+    },
+    "Project_DetailDescription": {
+      "type": "text"
+    },
+    "Project_tagline": {
+      "type": "string"
     }
   }
 }
