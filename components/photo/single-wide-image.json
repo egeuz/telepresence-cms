@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_photo_single_wide_images",
+  "info": {
+    "name": "Single_Wide_Image",
+    "icon": "leaf"
+  },
+  "options": {},
+  "attributes": {
+    "Single_Wide_Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Wide_Image_Caption": {
+      "type": "string"
+    }
+  }
+}

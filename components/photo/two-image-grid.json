@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_photo_two_image_grids",
+  "info": {
+    "name": "Two_Image_Grid",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "Image_1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Image_2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Image_1_Caption": {
+      "type": "string"
+    },
+    "Image_2_Caption": {
+      "type": "string"
+    }
+  }
+}

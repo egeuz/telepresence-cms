@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_photo_three_image_grids",
+  "info": {
+    "name": "Three_Image_Grid",
+    "icon": "arrow-alt-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "Image_1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Image_2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Image_3": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Image_1_Caption": {
+      "type": "string"
+    },
+    "Image_2_Caption": {
+      "type": "string"
+    },
+    "Image_3_Caption": {
+      "type": "string"
+    }
+  }
+}
