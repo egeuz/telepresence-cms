@@ -1,47 +1,42 @@
 {
-  "kind": "collectionType",
-  "collectionName": "events",
+  "kind": "singleType",
+  "collectionName": "coming_soons",
   "info": {
-    "name": "Event"
+    "name": "Coming Soon"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "event_title": {
+    "title": {
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": false
     },
-    "event_speaker": {
+    "dates": {
       "type": "string",
       "required": true
     },
-    "event_date": {
-      "type": "date"
-    },
-    "event_time": {
-      "type": "time"
-    },
-    "event_description": {
+    "tagline": {
       "type": "text",
       "required": true
     },
-    "event_image": {
+    "slogan": {
+      "type": "string",
+      "required": true,
+      "default": "A CYBER EXPO"
+    },
+    "hero_image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images"
+        "images",
+        "files",
+        "videos"
       ],
       "plugin": "upload",
       "required": false
-    },
-    "event_type": {
-      "type": "string"
-    },
-    "event_url": {
-      "type": "string"
     }
   }
 }

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_two_image_grid_two_image_grids",
+  "info": {
+    "name": "two-image-grid",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "image_one": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "image_two": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
