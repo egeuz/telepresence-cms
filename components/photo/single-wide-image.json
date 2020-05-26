@@ -17,6 +17,9 @@
     },
     "Wide_Image_Caption": {
       "type": "string"
+    },
+    "Change_Visible": {
+      "type": "boolean"
     }
   }
 }
