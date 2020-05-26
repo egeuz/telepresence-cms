@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_photo_single_tall_images",
+  "info": {
+    "name": "Single_Tall_Image",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "Single_Tall_Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Tall_Image_Caption": {
+      "type": "string"
+    }
+  }
+}

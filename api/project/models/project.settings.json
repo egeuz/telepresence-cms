@@ -44,15 +44,6 @@
     "project_description": {
       "type": "text"
     },
-    "project_content": {
-      "type": "dynamiczone",
-      "components": [
-        "photo.photo",
-        "video.video",
-        "video.media2",
-        "photo.media1"
-      ]
-    },
     "Author_Intro": {
       "type": "text"
     },
@@ -71,6 +62,15 @@
     },
     "Project_tagline": {
       "type": "string"
+    },
+    "Content_Images": {
+      "type": "dynamiczone",
+      "components": [
+        "photo.single-wide-image",
+        "photo.single-tall-image",
+        "photo.two-image-grid",
+        "photo.three-image-grid"
+      ]
     }
   }
 }
