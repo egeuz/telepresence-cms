@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_text_textbox_contents",
+  "info": {
+    "name": "Textbox_Content",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Textbox_Title": {
+      "type": "string"
+    },
+    "Textbox_Body": {
+      "type": "richtext"
+    }
+  }
+}

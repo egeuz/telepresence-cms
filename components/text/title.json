@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_text_titles",
+  "info": {
+    "name": "Title",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "Text_Title": {
+      "type": "string"
+    },
+    "Text_Body": {
+      "type": "richtext"
+    }
+  }
+}
