@@ -71,6 +71,24 @@
         "photo.two-image-grid",
         "photo.three-image-grid"
       ]
+    },
+    "Content_Video": {
+      "type": "dynamiczone",
+      "components": [
+        "video.video"
+      ]
+    },
+    "Content_Unity": {
+      "type": "dynamiczone",
+      "components": [
+        "unity.unity"
+      ]
+    },
+    "Content_Textbox": {
+      "type": "dynamiczone",
+      "components": [
+        "text.textbox-content"
+      ]
     }
   }
 }

@@ -14,6 +14,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "Video_Caption": {
+      "type": "string"
     }
   }
 }
