@@ -18,12 +18,6 @@
       "type": "string",
       "required": true
     },
-    "date": {
-      "type": "date"
-    },
-    "time": {
-      "type": "time"
-    },
     "description": {
       "type": "text",
       "required": true
@@ -52,6 +46,12 @@
         "text.linked-in",
         "text.email"
       ]
+    },
+    "date": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
     }
   }
 }
