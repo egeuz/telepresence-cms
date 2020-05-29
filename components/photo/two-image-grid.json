@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "Image_1": {
+    "image_1": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -15,7 +15,7 @@
       "plugin": "upload",
       "required": false
     },
-    "Image_2": {
+    "image_2": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -24,10 +24,10 @@
       "plugin": "upload",
       "required": false
     },
-    "Image_1_Caption": {
+    "image_1_caption": {
       "type": "string"
     },
-    "Image_2_Caption": {
+    "image_2_caption": {
       "type": "string"
     }
   }

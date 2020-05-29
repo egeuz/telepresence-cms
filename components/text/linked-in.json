@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "LinkedIn_handle": {
+    "linkedin_url": {
       "type": "string"
     }
   }

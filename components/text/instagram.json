@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "Insta_handle": {
+    "instagram_url": {
       "type": "string"
     }
   }

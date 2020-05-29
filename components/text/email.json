@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "Email_id": {
+    "email": {
       "type": "string"
     }
   }

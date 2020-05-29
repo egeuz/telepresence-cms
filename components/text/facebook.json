@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "Facebook_handle": {
+    "facebook_url": {
       "type": "string"
     }
   }

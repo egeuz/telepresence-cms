@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "Single_Tall_Image": {
+    "single_tall_image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -15,7 +15,7 @@
       "plugin": "upload",
       "required": false
     },
-    "Tall_Image_Caption": {
+    "tall_image_caption": {
       "type": "string"
     }
   }

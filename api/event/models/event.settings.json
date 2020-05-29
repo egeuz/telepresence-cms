@@ -9,26 +9,26 @@
     "timestamps": true
   },
   "attributes": {
-    "event_title": {
+    "title": {
       "type": "string",
       "required": true,
       "unique": true
     },
-    "event_speaker": {
+    "speaker": {
       "type": "string",
       "required": true
     },
-    "event_date": {
+    "date": {
       "type": "date"
     },
-    "event_time": {
+    "time": {
       "type": "time"
     },
-    "event_description": {
+    "description": {
       "type": "text",
       "required": true
     },
-    "event_image": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -40,8 +40,18 @@
     "event_type": {
       "type": "string"
     },
-    "event_url": {
+    "eventbrite_url": {
       "type": "string"
+    },
+    "speaker_social": {
+      "type": "dynamiczone",
+      "components": [
+        "text.portfolio",
+        "text.facebook",
+        "text.instagram",
+        "text.linked-in",
+        "text.email"
+      ]
     }
   }
 }

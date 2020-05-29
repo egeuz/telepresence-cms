@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "Portfolio_url": {
+    "portfolio_url": {
       "type": "string"
     }
   }

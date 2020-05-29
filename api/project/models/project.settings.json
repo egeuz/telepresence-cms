@@ -9,29 +9,25 @@
     "timestamps": true
   },
   "attributes": {
-    "project_id": {
+    "id": {
       "type": "integer",
       "required": true,
       "unique": true,
       "min": 0
     },
-    "project_title": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "project_author": {
+    "author": {
       "type": "string",
       "required": true
     },
-    "project_hashtags": {
+    "hashtags": {
       "type": "string",
       "required": true
     },
-    "project_category": {
-      "type": "string",
-      "required": true
-    },
-    "project_cover_image": {
+    "cover_image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -44,10 +40,10 @@
     "project_description": {
       "type": "text"
     },
-    "Author_Intro": {
+    "author_intro": {
       "type": "text"
     },
-    "Author_Social": {
+    "author_social": {
       "type": "dynamiczone",
       "components": [
         "text.instagram",
@@ -57,13 +53,13 @@
         "text.emailid"
       ]
     },
-    "Project_DetailDescription": {
+    "project_detailed_description": {
       "type": "text"
     },
-    "Project_tagline": {
+    "tagline": {
       "type": "string"
     },
-    "Content_Images": {
+    "content_images": {
       "type": "dynamiczone",
       "components": [
         "photo.single-wide-image",
@@ -72,22 +68,34 @@
         "photo.three-image-grid"
       ]
     },
-    "Content_Video": {
+    "content_video": {
       "type": "dynamiczone",
       "components": [
         "video.video"
       ]
     },
-    "Content_Unity": {
+    "content_unity": {
       "type": "dynamiczone",
       "components": [
         "unity.unity"
       ]
     },
-    "Content_Textbox": {
+    "content_textbox": {
       "type": "dynamiczone",
       "components": [
         "text.textbox-content"
+      ]
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Activism_by_Design",
+        "The_New_Gooey",
+        "Defragmented_Identities",
+        "Spiritual_Technologies",
+        "Neophysical_Connections",
+        "Cybernetics_of_Culture",
+        "Uncoded_Territories"
       ]
     }
   }

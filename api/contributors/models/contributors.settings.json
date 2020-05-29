@@ -9,13 +9,13 @@
     "timestamps": true
   },
   "attributes": {
-    "contributor_name": {
+    "name": {
       "type": "string"
     },
-    "contributor_team": {
+    "team": {
       "type": "string"
     },
-    "contributor_portfolio": {
+    "portfolio": {
       "type": "string"
     }
   }

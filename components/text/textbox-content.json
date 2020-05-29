@@ -6,10 +6,10 @@
   },
   "options": {},
   "attributes": {
-    "Textbox_Title": {
+    "header": {
       "type": "string"
     },
-    "Textbox_Body": {
+    "body": {
       "type": "richtext"
     }
   }

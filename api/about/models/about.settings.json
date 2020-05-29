@@ -1,33 +1,19 @@
 {
   "kind": "singleType",
-  "collectionName": "coming_soons",
+  "collectionName": "abouts",
   "info": {
-    "name": "Coming Soon Page"
+    "name": "About Page"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true,
-      "unique": false
-    },
-    "dates": {
-      "type": "string",
-      "required": true
-    },
-    "tagline": {
+    "title_list": {
       "type": "text",
-      "required": true
+      "default": "add all titles one after another separated with commas"
     },
-    "slogan": {
-      "type": "string",
-      "required": true,
-      "default": "A CYBER EXPO"
-    },
-    "cs_hero_image": {
+    "about_hero_image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -36,7 +22,7 @@
       "plugin": "upload",
       "required": false
     },
-    "cs_hero_video": {
+    "about_hero_video": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
