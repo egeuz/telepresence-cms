@@ -9,21 +9,11 @@
     "timestamps": true
   },
   "attributes": {
-    "id": {
-      "type": "integer",
-      "required": true,
-      "unique": true,
-      "min": 0
-    },
     "title": {
       "type": "string",
       "required": true
     },
     "author": {
-      "type": "string",
-      "required": true
-    },
-    "hashtags": {
       "type": "string",
       "required": true
     },
@@ -38,7 +28,8 @@
       "required": true
     },
     "project_description": {
-      "type": "text"
+      "type": "text",
+      "required": false
     },
     "author_intro": {
       "type": "text"
@@ -53,9 +44,6 @@
         "text.emailid"
       ]
     },
-    "project_detailed_description": {
-      "type": "text"
-    },
     "tagline": {
       "type": "string"
     },
@@ -65,25 +53,10 @@
         "photo.single-wide-image",
         "photo.single-tall-image",
         "photo.two-image-grid",
-        "photo.three-image-grid"
-      ]
-    },
-    "content_video": {
-      "type": "dynamiczone",
-      "components": [
-        "video.video"
-      ]
-    },
-    "content_unity": {
-      "type": "dynamiczone",
-      "components": [
+        "photo.three-image-grid",
+        "video.video",
+        "text.textbox-content",
         "unity.unity"
-      ]
-    },
-    "content_textbox": {
-      "type": "dynamiczone",
-      "components": [
-        "text.textbox-content"
       ]
     },
     "category": {
