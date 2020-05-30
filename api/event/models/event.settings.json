@@ -9,13 +9,20 @@
     "timestamps": true
   },
   "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "event_type": {
+      "type": "string"
+    },
     "speaker": {
-      "type": "string",
-      "required": true
+      "type": "string"
+    },
+    "eventbrite_link": {
+      "type": "string"
     },
     "description": {
-      "type": "text",
-      "required": true
+      "type": "richtext"
     },
     "image": {
       "model": "file",
@@ -26,31 +33,11 @@
       "plugin": "upload",
       "required": false
     },
-    "event_type": {
-      "type": "string"
-    },
-    "eventbrite_url": {
-      "type": "string"
-    },
-    "speaker_social": {
-      "type": "dynamiczone",
-      "components": [
-        "text.portfolio",
-        "text.facebook",
-        "text.instagram",
-        "text.linked-in",
-        "text.email"
-      ]
-    },
     "date": {
       "type": "string"
     },
     "time": {
       "type": "string"
-    },
-    "title": {
-      "type": "string",
-      "required": true
     }
   }
 }
