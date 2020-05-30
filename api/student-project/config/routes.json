@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/events",
-      "handler": "event.find",
+      "path": "/student-projects",
+      "handler": "student-project.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/events/count",
-      "handler": "event.count",
+      "path": "/student-projects/count",
+      "handler": "student-project.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/events/:id",
-      "handler": "event.findOne",
+      "path": "/student-projects/:id",
+      "handler": "student-project.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/events",
-      "handler": "event.create",
+      "path": "/student-projects",
+      "handler": "student-project.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/events/:id",
-      "handler": "event.update",
+      "path": "/student-projects/:id",
+      "handler": "student-project.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/events/:id",
-      "handler": "event.delete",
+      "path": "/student-projects/:id",
+      "handler": "student-project.delete",
       "config": {
         "policies": []
       }

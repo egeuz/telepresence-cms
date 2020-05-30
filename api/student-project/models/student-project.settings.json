@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "student_projects",
+  "info": {
+    "name": "Student Project"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "cover_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "author_about": {
+      "type": "text"
+    },
+    "author_social": {
+      "type": "dynamiczone",
+      "components": [
+        "text.portfolio",
+        "text.facebook",
+        "text.instagram",
+        "text.linked-in",
+        "text.email"
+      ]
+    },
+    "project_content": {
+      "type": "dynamiczone",
+      "components": [
+        "photo.single-tall-image",
+        "photo.single-wide-image",
+        "photo.two-image-grid",
+        "photo.three-image-grid",
+        "video.video",
+        "unity.unity"
+      ]
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Activism_By_Design",
+        "Defragmented_Identities",
+        "The_New_Gooey",
+        "Neophysical_Connections",
+        "Spiritual_Technologies",
+        "Cybernetics_of_Culture",
+        "Uncoded_Territories"
+      ]
+    }
+  }
+}

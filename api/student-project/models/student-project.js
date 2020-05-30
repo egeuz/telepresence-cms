@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `event` model.
+ * Lifecycle callbacks for the `student-project` model.
  */
 
 module.exports = {
