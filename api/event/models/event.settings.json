@@ -9,11 +9,6 @@
     "timestamps": true
   },
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true,
-      "unique": false
-    },
     "speaker": {
       "type": "string",
       "required": true
@@ -52,6 +47,10 @@
     },
     "time": {
       "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
     }
   }
 }
