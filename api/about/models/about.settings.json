@@ -33,6 +33,11 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "contributors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contributors.contributor"
     }
   }
 }

@@ -49,7 +49,8 @@
         "photo.two-image-grid",
         "photo.three-image-grid",
         "video.video",
-        "unity.unity"
+        "unity.unity",
+        "text.textbox-content"
       ]
     },
     "category": {
